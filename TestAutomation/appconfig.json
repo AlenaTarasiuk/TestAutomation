@@ -1,0 +1,15 @@
+{
+  "AppSettings": {
+    "environment": "DEV",
+    "baseEndpoint": "https://rp.epam.com/ui/",
+    "loginUrl": "https://rp.epam.com/ui/#login",
+    "demoUrl": "https://demo.reportportal.io/ui/#login",
+    "DriverType": "Chrome",
+    "maxWaitTime": 60,
+    "browserVersion": "latest"
+  },
+  "RPAthentication": {
+    "Login": "12345",
+    "Password": "5432"
+  }
+}
