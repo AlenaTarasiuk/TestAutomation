@@ -12,6 +12,7 @@ namespace TestAutomation.Core.Drivers.Implementations
             var options = new ChromeOptions();
             options.AddArguments("--start-maximized");
             options.AddArgument("disable-infobars");
+            options.AddArguments("--no-sandbox");
             return new ChromeDriver(service, options, TimeSpan.FromSeconds(180));
         }
 
